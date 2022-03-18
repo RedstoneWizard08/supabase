@@ -114,7 +114,7 @@ services:
 
   storage:
     container_name: supabase-storage
-    image: supabase/storage-api:v0.10.0
+    image: supabase/storage-api:v0.10.1
     depends_on:
       - db
       - rest
